@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles.css">
+  <title>Live Search</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Застосунок пошуку фільмів</h1>
+    <div class="search">
+      <div class="search__group search__group--input">
+        <label class="search__label-input" for="search">Пошук фільмів</label>
+        <input class="search__input" id="search" type="search" placeholder="Почніть вводити назву фільму.">
+      </div>
+
+      <div class="search__group search__group--checkbox">
+        <input class="search__checkbox" id="checkbox" type="checkbox">
+        <label class="search__label-checkbox" for="checkbox">Додавати фільми до вже існуючого переліку</label>
+      </div>
+    </div>
+
+    <div class="movies" id="movies-list">
+      <!-- Movies insereted by JS -->
+    </div>
+
+  </div>
+
+  <script src="/src/main.js"></script>
+</body>
+
+</html>
